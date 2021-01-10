@@ -18,7 +18,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -37,18 +37,50 @@
   }
 }
 
-.ant-layout-content {
-
-}
-
 .ant-upload-picture-card-wrapper {
   padding:15%;
 }
 
+.ant-upload:hover {
+  opacity: 0.5;
+  transition: ease-in-out;
+}
+
 .site-layout {
   background-image: url("https://media.wired.com/photos/5cabda11e903a149797c4518/191:100/w_2400,h_1256,c_limit/spotify-909238494.jpg");
-  background-attachment: fixed;
+  background-attachment:relative;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 1165px;
+  width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+  .site-layout {
+    background-image: url('https://i.pinimg.com/originals/18/67/22/1867221a512ebc0579fa9f7bb2e02fe0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.site-instructions {
+  margin-top: 450px;
+  font-size: 50px;
+  font: bold;
+  text-align: justify;
+  text-decoration: underline;
+}
+
+.site-steps {
+  font-size: 25px;
+  font: bold;
+  text-align: justify;
+}
+
+.site-player{
+  float:right;
+  position: absolute;
+  right: 250px;
+  top: 350px;
 }
