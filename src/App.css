@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-layout-content {
+
+}
+
+.ant-upload-picture-card-wrapper {
+  padding:15%;
+}
+
+.site-layout {
+  background-image: url("https://media.wired.com/photos/5cabda11e903a149797c4518/191:100/w_2400,h_1256,c_limit/spotify-909238494.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1165px;
+}
