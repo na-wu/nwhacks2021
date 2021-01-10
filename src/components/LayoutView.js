@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout } from 'antd';
 import UploadComponent from './UploadComponent'
 import 'antd/dist/antd.css';
 import ProjectHeader from './ProjectHeader';
@@ -20,7 +20,7 @@ class LayoutView extends Component {
       <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>
         <UploadComponent/>
       </div>
-      <div className="site-player"><iframe src="https://open.spotify.com/embed/track/1IX47gefluXmKX4PrTBCRM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+      {/* <div className="site-player"><iframe src="https://open.spotify.com/embed/track/1IX47gefluXmKX4PrTBCRM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div> */}
     </Content>
     <Footer style={{ textAlign: 'center'}}>Designed by: Nathan and Kevin @ nwHacks 2021</Footer>
   </Layout>
